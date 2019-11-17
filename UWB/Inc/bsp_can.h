@@ -17,7 +17,7 @@
 #define UWB_RX_FIFO_SIZE    (22)
 #define UWB_TX_FIFO_SIZE    (22)
 
-typedef __packed struct
+typedef struct
 {
     int16_t coor_x;
     int16_t corr_y;
